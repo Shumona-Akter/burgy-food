@@ -1,0 +1,554 @@
+@media (min-width: 1400px){
+    /* home section start */
+   #nav_main {
+        position: absolute;
+        width: 100%;
+        top: 200px;
+        left: 0;
+      }
+    #banner_part {
+        height: 100vh;
+      }
+      #banner_part .heading h1 {
+        cursor: pointer;
+        padding-top: 30px;
+      }
+      
+    /* home section end */
+    /* about section start */
+    #about_nav_main {
+        top: 320px;
+      }
+    #about_banner_part {
+        height: 100vh;
+        padding-top: 100px;
+      }
+      #why_best .heading h1 {
+        font-size: 65px;
+      }
+      #why_best .best_item p {
+        font-size: 18px;
+        line-height: 36px;
+      }
+      #why_best .best_item p span {
+        font-size: 75px;
+      }
+      
+#about_team_part .heading h1 {
+    font-size: 34px;
+  }
+  #about_team_part .heading h1 span {
+    font-size: 24px;
+  }
+  #about_team_part .team_item .text h1 {
+    font-size: 27px;
+  }
+  #about_team_part .team_item .text h1 span {
+    font-size: 25px;
+  }
+  #about_team_part .team_item .text p {
+    font-size: 16px;
+  }
+  #about_team_part #team_footer h1 {
+    font-size: 42px;
+  }
+  footer .heading h1 {
+    font-size: 82px;
+  }
+  
+    /* about section end */
+    /* pizza part start */
+    #pizza_nav_main {
+        left: 0;
+      }
+    #pizza_item {
+        padding-top: 130px;
+        padding-bottom: 130px;
+      }
+      #pizza_item .item .iteam_text h1 {
+        font-size: 22px;
+      }
+      #pizza_item .item .iteam_text p {
+        font-size: 16px;
+      }
+      #pizza_item .item .iteam_text .pizza_hover .pizza_size h2 {
+        font-size: 22px;
+      }
+      #oder_part .item .iteam_text h1 {
+        font-size: 22px;
+      }
+    /* pizza part end */
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    @media (min-width: 1400px){
+        /* home section start */
+        #nav_main {
+            position: absolute;
+            width: 100%;
+            top: 200px;
+            left: 0;
+          }
+        #banner_part {
+            height: 100vh;
+          }
+          #banner_part .heading h1 {
+            cursor: pointer;
+            padding-top: 30px;
+          }
+          
+        /* home section end */
+        /* about section start */
+        #about_nav_main {
+            top: 300px;
+          }
+        #about_banner_part {
+            height: 100vh;
+            padding-top: 100px;
+          }
+          #why_best .heading h1 {
+            font-size: 60px;
+          }
+          #why_best .best_item p {
+            font-size: 16px;
+            line-height: 30px;
+          }
+          #why_best .best_item p span {
+            font-size: 70px;
+          }
+          
+    #about_team_part .heading h1 {
+        font-size: 30px;
+      }
+      #about_team_part .heading h1 span {
+        font-size: 22px;
+      }
+      #about_team_part .team_item .text h1 {
+        font-size: 25px;
+      }
+      #about_team_part .team_item .text h1 span {
+        font-size: 22px;
+      }
+      #about_team_part .team_item .text p {
+        font-size: 14px;
+      }
+      #about_team_part #team_footer h1 {
+        font-size: 40px;
+      }
+      footer .heading h1 {
+        font-size: 82px;
+      }
+      
+        /* about section end */
+        /* pizza part start */
+        #pizza_nav_main {
+            left: 0;
+          }
+        #pizza_item {
+            padding-top: 120px;
+            padding-bottom: 120px;
+          }
+          #pizza_item .item .iteam_text h1 {
+            font-size: 20px;
+          }
+          #pizza_item .item .iteam_text p {
+            font-size: 14px;
+          }
+          #pizza_item .item .iteam_text .pizza_hover .pizza_size h2 {
+            font-size: 20px;
+          }
+          #oder_part .item .iteam_text h1 {
+            font-size: 20px;
+          }
+        /* pizza part end */
+    } 
+    
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    @media (min-width: 1400px){
+        /* home section start */
+        #nav_main {
+            position: absolute;
+            width: 100%;
+            top: 200px;
+            left: 0;
+          }
+        #banner_part {
+            height: 100vh;
+          }
+          #banner_part .heading h1 {
+            cursor: pointer;
+            padding-top: 30px;
+          }
+          
+        /* home section end */
+        /* about section start */
+        #about_nav_main {
+            top: 300px;
+          }
+        #about_banner_part {
+            height: 100vh;
+            padding-top: 100px;
+          }
+          #why_best .heading h1 {
+            font-size: 60px;
+          }
+          #why_best .best_item p {
+            font-size: 16px;
+            line-height: 30px;
+          }
+          #why_best .best_item p span {
+            font-size: 70px;
+          }
+          
+    #about_team_part .heading h1 {
+        font-size: 30px;
+      }
+      #about_team_part .heading h1 span {
+        font-size: 22px;
+      }
+      #about_team_part .team_item .text h1 {
+        font-size: 25px;
+      }
+      #about_team_part .team_item .text h1 span {
+        font-size: 22px;
+      }
+      #about_team_part .team_item .text p {
+        font-size: 14px;
+      }
+      #about_team_part #team_footer h1 {
+        font-size: 40px;
+      }
+      footer .heading h1 {
+        font-size: 82px;
+      }
+      
+        /* about section end */
+        /* pizza part start */
+        #pizza_nav_main {
+            left: 0;
+          }
+        #pizza_item {
+            padding-top: 120px;
+            padding-bottom: 120px;
+          }
+          #pizza_item .item .iteam_text h1 {
+            font-size: 20px;
+          }
+          #pizza_item .item .iteam_text p {
+            font-size: 14px;
+          }
+          #pizza_item .item .iteam_text .pizza_hover .pizza_size h2 {
+            font-size: 20px;
+          }
+          #oder_part .item .iteam_text h1 {
+            font-size: 20px;
+          }
+        /* pizza part end */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #nav_main {
+        position: absolute;
+        width: 100%;
+        top: 150px;
+        left: 0;
+      }
+      #nav_main a {
+        padding: 3px 10px;
+        font-size: 20px;
+      }
+    #banner_part {
+        height: 100vh;
+      }
+      #banner_part .heading h1 {
+        cursor: pointer;
+        padding-top: 30px;
+      }
+      
+    /* home section end */
+    /* about section start */
+    #about_nav_main {
+        top: 320px;
+      }
+    #about_banner_part {
+        height: 100vh;
+        padding-top: 100px;
+      }
+      #why_best .heading h1 {
+        font-size: 55px;
+      }
+      #why_best .best_item p {
+        font-size: 14px;
+        line-height: 28px;
+      }
+      #why_best .best_item p span {
+        font-size: 65px;
+      }
+      
+#about_team_part .heading h1 {
+    font-size: 28px;
+  }
+  #about_team_part .heading h1 span {
+    font-size: 20px;
+  }
+  #about_team_part .team_item .text h1 {
+    font-size: 24px;
+  }
+  #about_team_part .team_item .text h1 span {
+    font-size: 22px;
+  }
+  #about_team_part .team_item .text p {
+    font-size: 14px;
+  }
+  #about_team_part #team_footer h1 {
+    font-size: 38px;
+  }
+  footer .heading h1 {
+    font-size: 74px;
+  }
+  
+    /* about section end */
+    /* pizza part start */
+    #pizza_nav_main {
+        left: 0;
+      }
+    #pizza_item {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      #pizza_item .item .iteam_text h1 {
+        font-size: 18px;
+      }
+      #pizza_item .item .iteam_text p {
+        font-size: 14px;
+      }
+      #pizza_item .item .iteam_text .pizza_hover .pizza_size h2 {
+        font-size: 18px;
+      }
+      #oder_part .item .iteam_text h1 {
+        font-size: 18px;
+      }
+    /* pizza part end */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #nav_main {
+        top: 10px;
+      }
+      #nav_main a{
+        color: #353535;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+     #nav_main  .navbar-toggler-icon{
+          color: white;
+      }
+      #banner_part .heading h1 {
+        cursor: pointer;
+        padding-top: 70px;
+      }
+    #about_nav_main {
+        top: 30px;
+      }
+      #about_nav_main a{
+        color: #fdd173;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+      #about_nav_main  .navbar-toggler-icon{
+          color: white;
+      }
+      #why_best {
+        padding-top: 50px;
+      }
+      #why_best .heading h1 {
+        width: 500px;
+        font-size: 40px;
+      }
+      #why_best .best_item p {
+        font-size: 14px;
+        line-height: 28px;
+      }
+      #about_team_part {
+        padding-top: 50px;
+      }
+      #about_team_part .team_item .text h1 {
+        font-size: 20px;
+      }
+      #about_team_part .team_item .text h1 span {
+        font-size: 20px;
+      }
+      #about_team_part .team_item .text p {
+        font-size: 12px;
+      }
+      #about_team_part #team_footer h1 {
+        width: 650px;
+        font-size: 40px;
+      }
+      #pizza_nav_main {
+        top: 30px;
+      }
+      #pizza_nav_main a{
+        color: #fdd173;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+      #pizza_nav_main  .navbar-toggler-icon{
+          color: #fff;
+      }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    #nav_main {
+        top: 10px;
+      }
+      #nav_main a{
+        color: #353535;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+     #nav_main  .navbar-toggler-icon{
+          color: white;
+      }
+      #banner_part .heading h1 {
+        padding-top: 70px;
+      }
+      #about_banner_part .heading h1 span{
+        color: rgb(0, 0, 0);
+      }
+    #about_nav_main {
+        top: 30px;
+      }
+      #about_nav_main a{
+        color: #fdd173;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+      #about_nav_main  .navbar-toggler-icon{
+          color: white;
+      }
+      #why_best {
+        padding-top: 50px;
+      }
+      #why_best .heading h1 {
+        width: 500px;
+        font-size: 40px;
+      }
+      #why_best .best_item p {
+        font-size: 14px;
+        line-height: 28px;
+      }
+      #about_team_part {
+        padding-top: 50px;
+      }
+      #about_team_part .team_item .text h1 {
+        font-size: 20px;
+      }
+      #about_team_part .team_item .text h1 span {
+        font-size: 20px;
+      }
+      #about_team_part .team_item .text p {
+        font-size: 12px;
+      }
+      #about_team_part #team_footer h1 {
+        width: 650px;
+        font-size: 40px;
+      }
+      #pizza_nav_main {
+        top: 30px;
+      }
+      #pizza_nav_main a{
+        color: #fdd173;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+      #pizza_nav_main  .navbar-toggler-icon{
+          color: #fff;
+      }
+}
+@media (max-width: 575px) {
+    #nav_main {
+        top: 10px;
+      }
+      #nav_main a{
+        color: #353535;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+     #nav_main  .navbar-toggler-icon{
+          color: white;
+      }
+      #banner_part .heading h1 {
+        padding-top: 70px;
+      }
+      #about_banner_part .heading h1 span{
+        color: rgb(0, 0, 0);
+      }
+    #about_nav_main {
+        top: 30px;
+      }
+      #about_nav_main a{
+        color: #fdd173;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+      #about_nav_main  .navbar-toggler-icon{
+          color: white;
+      }
+      #why_best {
+        padding-top: 50px;
+      }
+      #why_best .heading h1 {
+        width: 500px;
+        font-size: 40px;
+      }
+      #why_best .best_item p {
+        font-size: 14px;
+        line-height: 28px;
+      }
+      #about_team_part {
+        padding-top: 50px;
+      }
+      #about_team_part .team_item .text h1 {
+        font-size: 20px;
+      }
+      #about_team_part .team_item .text h1 span {
+        font-size: 20px;
+      }
+      #about_team_part .team_item .text p {
+        font-size: 12px;
+      }
+      #about_team_part #team_footer h1 {
+        width: 650px;
+        font-size: 40px;
+      }
+      #pizza_nav_main {
+        top: 30px;
+      }
+      #pizza_nav_main a{
+        color: #fdd173;
+        font-size: 27px;
+        padding: 3px 5px;
+      }
+      #pizza_nav_main  .navbar-toggler-icon{
+          color: #fff;
+      }
+      footer .heading h1 {
+        text-align: right;
+        cursor: pointer;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: "Fredericka the Great", cursive;
+        font-size: 40px;
+      }
+      #contuct_part .contuct_form .input_box span{
+        position: absolute;
+        left: 0;
+        color: #fff;
+      }
+      footer .heading h1 span {
+        font-size: 20px;
+      }
+}

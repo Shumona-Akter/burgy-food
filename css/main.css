@@ -1,0 +1,914 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+
+#nav_main {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  left: 0;
+}
+
+#nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#nav_main a:hover {
+  color: #fdd173;
+}
+
+#nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+/* about section start */
+#about_nav_main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  left: 0;
+}
+
+#about_nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#about_nav_main a:hover {
+  color: #fdd173;
+}
+
+#about_nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pizza_nav_main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  left: 0;
+}
+
+#pizza_nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#pizza_nav_main a:hover {
+  color: #fdd173;
+}
+
+#pizza_nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pizza_nav_main .btn-primary {
+  color: #fff;
+  background-color: #fdd173;
+  border-color: #0d6efd;
+}
+
+#pizza_nav_main .primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#banner_part {
+  height: 100vh;
+}
+
+#banner_part .heading h1 {
+  cursor: pointer;
+  padding-top: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+#banner_part .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fdd173;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#about_banner_part {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+#about_banner_part .heading h1 {
+  cursor: pointer;
+  padding-top: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+#about_banner_part .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fdd173;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#nav_main {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  left: 0;
+}
+
+#nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#nav_main a:hover {
+  color: #fdd173;
+}
+
+#nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#about_nav_main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  left: 0;
+}
+
+#about_nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#about_nav_main a:hover {
+  color: #fdd173;
+}
+
+#about_nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pizza_nav_main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  left: 0;
+}
+
+#pizza_nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#pizza_nav_main a:hover {
+  color: #fdd173;
+}
+
+#pizza_nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pizza_nav_main .btn-primary {
+  color: #fff;
+  background-color: #fdd173;
+  border-color: #0d6efd;
+}
+
+#pizza_nav_main .primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#banner_part {
+  height: 100vh;
+}
+
+#banner_part .heading h1 {
+  cursor: pointer;
+  padding-top: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+#banner_part .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fdd173;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#about_banner_part {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+#about_banner_part .heading h1 {
+  cursor: pointer;
+  padding-top: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+#about_banner_part .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fdd173;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#why_best {
+  padding-top: 130px;
+}
+
+#why_best .heading h1 {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  color: #353535;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+#why_best .best_item {
+  padding-top: 70px;
+}
+
+#why_best .best_item p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #858585;
+  text-transform: inherit;
+  line-height: 30px;
+}
+
+#why_best .best_item p span {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 70px;
+  font-weight: 400;
+  color: #353535;
+  text-transform: uppercase;
+}
+
+#about_team_part {
+  padding-top: 130px;
+}
+
+#about_team_part .heading {
+  text-align: center;
+}
+
+#about_team_part .heading h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #353535;
+  text-transform: uppercase;
+}
+
+#about_team_part .heading h1 span {
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #353535;
+  text-transform: capitalize;
+  display: block;
+  padding-top: 20px;
+}
+
+#about_team_part .team_item {
+  padding-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+#about_team_part .team_item:hover .text {
+  bottom: 0;
+}
+
+#about_team_part .team_item .img {
+  height: 350px;
+}
+
+#about_team_part .team_item .img img {
+  height: 350px;
+}
+
+#about_team_part .team_item .text {
+  position: absolute;
+  bottom: -130px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.541);
+  text-align: center;
+  padding-bottom: 20px;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#about_team_part .team_item .text h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#about_team_part .team_item .text h1 span {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fdd173;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 10px;
+}
+
+#about_team_part .team_item .text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: inherit;
+}
+
+#about_team_part #team_footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#about_team_part #team_footer h1 {
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 70px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #353535;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #fdd173;
+}
+
+footer .heading h1 {
+  text-align: right;
+  cursor: pointer;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+footer .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#nav_main {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  left: 0;
+}
+
+#nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#nav_main a:hover {
+  color: #fdd173;
+}
+
+#nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#about_nav_main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  left: 0;
+}
+
+#about_nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#about_nav_main a:hover {
+  color: #fdd173;
+}
+
+#about_nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pizza_nav_main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  left: 0;
+}
+
+#pizza_nav_main a {
+  color: #fff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#pizza_nav_main a:hover {
+  color: #fdd173;
+}
+
+#pizza_nav_main .dropdown-item {
+  color: #858585;
+  font-size: 16px;
+  padding: 10px 70px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pizza_nav_main .btn-primary {
+  color: #fff;
+  background-color: #fdd173;
+  border-color: #0d6efd;
+}
+
+#pizza_nav_main .primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#banner_part {
+  height: 100vh;
+}
+
+#banner_part .heading h1 {
+  cursor: pointer;
+  padding-top: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+#banner_part .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fdd173;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#about_banner_part {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+#about_banner_part .heading h1 {
+  cursor: pointer;
+  padding-top: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+#about_banner_part .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fdd173;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+#pizza_item {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+#pizza_item .item .item_image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+#pizza_item .item .iteam_text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #353535;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#pizza_item .item .iteam_text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #353535;
+  text-transform: initial;
+  text-align: center;
+  padding-bottom: 10px;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#pizza_item .item .iteam_text .pizza_hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.603);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 40px;
+  display: none;
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+
+#pizza_item .item .iteam_text .pizza_hover .pizza_size {
+  text-align: center;
+}
+
+#pizza_item .item .iteam_text .pizza_hover .pizza_size h2 {
+  padding-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fdd173;
+  text-transform: uppercase;
+}
+
+#pizza_item .item .iteam_text .pizza_hover .pizza_size h2 span {
+  display: block;
+}
+
+#pizza_item .item:hover .pizza_hover {
+  display: block;
+}
+
+#oder_part {
+  padding-bottom: 130px;
+}
+
+#oder_part .item .item_image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+#oder_part .item .iteam_text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #353535;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#oder_part .item .iteam_text .pizza_hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 40px;
+  display: none;
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#oder_part .item .iteam_text .pizza_hover .order_now a {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#oder_part .item .iteam_text .pizza_hover .order_now a:hover {
+  background-color: rgba(253, 209, 115, 0.589);
+}
+
+#oder_part .item .iteam_text .pizza_hover .order_now h1 {
+  padding-top: 10px;
+  font-style: 20px;
+  text-transform: capitalize;
+}
+
+#oder_part .item:hover .pizza_hover {
+  display: block;
+}
+
+footer {
+  background: #fdd173;
+}
+
+footer .heading h1 {
+  text-align: right;
+  cursor: pointer;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 10px 0px 7px #addf26,
+ 10px 0px 7px #c52b2b;
+}
+
+footer .heading h1 span {
+  font-size: 40px;
+  display: block;
+  font-family: "Great Vibes", cursive;
+  text-transform: capitalize;
+  margin-left: 150px;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+}
+
+
+/* contact part */
+#contuct_part{
+  background: url(../images/pizza1.jpg) no-repeat center / cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#contuct_part .contuct_info{
+  margin-top: 70px;
+  margin-left: 50px;
+}
+#contuct_part .contuct_info .info_flex{
+  display: flex;
+
+}
+#contuct_part .contuct_info .info_flex h1{
+font-family: var(--opensans);
+font-weight: 400;
+color:rgb(143, 252, 143);
+font-size: 25px;
+text-transform: capitalize;
+padding-left: 5px;
+padding-bottom: 40px;
+}
+#contuct_part .contuct_info .info_flex h1 span{
+font-size: 16px;
+display: block;
+padding-bottom: 5px;
+
+}
+#contuct_part .contuct_info .info_flex .icon_box{
+  height: 60px;
+  width: 60px;
+  background: var(--white);
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+
+}
+#contuct_part .contuct_info .info_flex .logo_icon{
+  color: #fff;
+  font-size: 25px;
+  margin-top: 5px;
+}
+/* contact info end */
+/* input box start */
+#contuct_part .contuct_form{
+  width: 100%;
+  background: var(--white);
+  padding: 30px;
+}
+#contuct_part .contuct_form h2{
+  font-family: var(--opensans);
+font-weight: 400;
+color: rgb(7, 153, 39);
+font-size: 25px;
+text-transform: capitalize;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+#contuct_part .contuct_form .input_box{
+  position: relative;
+  padding-bottom: 20px;
+}
+#contuct_part .contuct_form .input_box input,
+#contuct_part .contuct_form .input_box textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+  outline: none;
+  resize: none;
+  color: #fdd173;
+  background: transparent;
+}
+#contuct_part .contuct_form .input_box span{
+  position: absolute;
+  left: 0;
+  color: #353535;
+  pointer-events: none;
+  transition: 0.1s;
+  font-family: var(--opensans);
+  font-weight: 400;
+  font-style: 20px;
+  text-transform: capitalize;
+}
+#contuct_part .contuct_form .input_box input:focus ~ span,
+#contuct_part .contuct_form .input_box input:valid ~ span,
+#contuct_part .contuct_form .input_box textarea:focus ~ span,
+#contuct_part .contuct_form .input_box textarea:valid ~ span{
+  color: var(--service);
+  font-size: 12px;
+  padding-bottom: 30px;
+  transform: translateY(-25px);
+}
+/* contact part end */
+/*# sourceMappingURL=main.css.map */
